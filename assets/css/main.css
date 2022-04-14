@@ -1305,7 +1305,7 @@ input, select, textarea {
 				display: block;
 				position: absolute;
 				top: calc(-3.5rem - 1px);
-				left: calc(52% - 1px);
+				left: calc(52% );
 				width: 1px;
 				height: calc(3.5rem + 1px);
 				background: #ffffff;
@@ -1689,3 +1689,8 @@ input, select, textarea {
 		body.is-preload #footer {
 			opacity: 0;
 		}
+
+		/*Slideshow/Carousel START*/
+		
+
+		/*Slideshow/Carousel END*/
