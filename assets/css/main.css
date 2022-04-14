@@ -153,7 +153,7 @@ input, select, textarea {
 		-webkit-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		-ms-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
-		border-bottom: dotted 1px rgba(255, 0, 0, 0.5);
+		border-bottom: dotted 1px rgba(255, 255, 255, 0.5);
 		text-decoration: none;
 		color: inherit;
 	}
@@ -402,7 +402,7 @@ input, select, textarea {
 		transition: border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, background-color 0.2s ease-in-out;
 		background-color: transparent;
 		border-radius: 4px;
-		border: solid 1px #ff0000;
+		border: solid 1px #ffffff;
 		color: inherit;
 		display: block;
 		outline: 0;
@@ -909,6 +909,7 @@ input, select, textarea {
 
 			ul.icons li:last-child {
 				padding-right: 0;
+				padding-top: 15%;
 			}
 
 			ul.icons li a {
@@ -928,6 +929,33 @@ input, select, textarea {
 				ul.icons li a:active {
 					background-color: rgba(255, 255, 255, 0.175);
 				}
+
+	/*Contact*/
+	.contact{
+		list-style: none;
+		padding-left: 0;
+	}
+
+	ul.contact li{
+		display: inline-block;
+		padding: 0 0.75em 0 0;
+		text-align: center;
+
+	}
+
+	.contact img{
+		display: inline-block;
+		float: left;
+		width: 25%;
+		height: 25%;
+	}
+
+	.contact p{
+		padding-top: 3%;
+		padding-left: 10%;
+		display: inline-block;
+		line-height: 2;
+	}
 
 /* Table */
 
@@ -1277,7 +1305,7 @@ input, select, textarea {
 				display: block;
 				position: absolute;
 				top: calc(-3.5rem - 1px);
-				left: calc(50% - 1px);
+				left: calc(52% - 1px);
 				width: 1px;
 				height: calc(3.5rem + 1px);
 				background: #ffffff;
